@@ -186,4 +186,99 @@
 .find .find2 a {
   text-decoration: none;
   color: black;
+}
+
+.middle {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-top: 150px;
+}
+.middle .middle1 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.middle .middle1 .middle12 {
+  position: relative;
+  right: 200px;
+  top: 120px;
+}
+.middle .middle1 .middle12 img {
+  border-radius: 10%;
+}
+.middle .middle2 {
+  margin-top: 50px;
+  padding-right: 100px;
+}
+.middle .middle2 h1 {
+  font-size: 60px;
+}
+
+.text4 {
+  text-align: center;
+  padding-bottom: 100px;
+  background-color: #4C1D95;
+  width: 100%;
+  padding-top: 50px;
+}
+.text4 h2 {
+  color: #7C3AED;
+}
+.text4 h1 {
+  font-size: 55px;
+  margin-bottom: 20px;
+  color: white;
+}
+.text4 p {
+  color: #0F172A;
+  margin-bottom: 20px;
+  color: white;
+}
+.text4 #but4 {
+  font-size: 1.4em;
+  color: white;
+  background-color: #7C3AED;
+  border-radius: 20px;
+  padding: 7px;
+}
+.text4 #but4:hover {
+  background-color: lightgrey;
+  color: #0F172A;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 100px;
+}
+.footer p {
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  border-top: 1px solid grey;
+}
+.footer2 .reserv2 a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.2em;
+  color: grey;
+  position: relative;
+  top: 20px;
+}
+.footer2 p {
+  font-size: 1.2em;
+  padding-top: 20px;
+}
+.footer2 i {
+  font-size: 1.5em;
+  margin-left: 5px;
+  color: grey;
+  padding-top: 20px;
 }/*# sourceMappingURL=style.css.map */
